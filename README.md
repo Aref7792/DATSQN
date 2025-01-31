@@ -1,7 +1,7 @@
 # DATSQN
-Improving Performance of Spike-based Deep Q-Learning using Ternary Neurons
+# Improving Performance of Spike-based Deep Q-Learning using Ternary Neurons
 
-This code evaluates the performance of deep spiking Q networks utilizing binary spiking neurons, ternary spiking neurons, and asymmetric ternary spiking neurons in playing Atari games in the Gym environment. 
+## This code evaluates the performance of deep spiking Q networks utilizing binary spiking neurons, ternary spiking neurons, and asymmetric ternary spiking neurons in playing Atari games in the Gym environment. 
 
 How to Run: 
 
@@ -18,5 +18,7 @@ To test a trained model:
 3-Locate the net.load() function (line 255 in DATSQN-test.py and DTSQN-test.py, line 170 in DSQN-test.py).
 
 4-Enter the numeric portion of the model name (the digits following "dqn") as the argument for net.load().
-
+```
+python.main.py
+```
 5-Run the script to execute the test.   
