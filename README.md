@@ -3,7 +3,7 @@
 
 ## This code evaluates the performance of deep spiking Q networks utilizing binary spiking neurons, ternary spiking neurons, and asymmetric ternary spiking neurons in playing Atari games in the Gym environment. 
 
-How to Run: 
+##How to Run: 
 
 Install all the required packages, 
 
