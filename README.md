@@ -3,13 +3,17 @@
 
 ## This code evaluates the performance of deep spiking Q networks utilizing binary spiking neurons, ternary spiking neurons, and asymmetric ternary spiking neurons in playing Atari games in the Gym environment. 
 
-##How to Run: 
+## How to Run: 
 
 Install all the required packages, 
 
 To train each of the three RL agents run:  DATSQN-train.py, DTSQN-train.py, and DSQN-train.py 
 
-To test a trained model:
+```
+DATSQN-test.py
+```
+
+### To test a trained model:
 
 1-Place the trained model in the training_models directory.
 
@@ -18,7 +22,9 @@ To test a trained model:
 3-Locate the net.load() function (line 255 in DATSQN-test.py and DTSQN-test.py, line 170 in DSQN-test.py).
 
 4-Enter the numeric portion of the model name (the digits following "dqn") as the argument for net.load().
+
+5-Run the script to execute the test.  
+
 ```
-python.main.py
+DATSQN-test.py
 ```
-5-Run the script to execute the test.   
