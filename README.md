@@ -23,7 +23,6 @@ DATSQN-test.py
 
 4-Enter the numeric portion of the model name (the digits following "dqn") as the argument for net.load().
 
-![Image](https://github.com/user-attachments/assets/b9e60ba0-5680-4bab-b1a1-d65cded4762e)
 
 5-Run the script to execute the test.  
 
