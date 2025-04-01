@@ -3,3 +3,6 @@
 
 # Figure 1A
 ![Image](https://github.com/user-attachments/assets/7f187dec-eb74-4a3c-873d-18188693bac2)
+
+# Figure 2A
+![Image](https://github.com/user-attachments/assets/c6de0af9-f5a0-4d82-9f32-cb92354a8d99)
