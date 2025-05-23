@@ -20,7 +20,7 @@ tensorboard --logdir /logs
 ### To test a trained model:
 
 After finishing the training, run the corresponding test environment. For example, if you ran DATSQN_train.py, run DATSQN_test.py.
-If you want to watch the game to observe the scores, please uncomment "env.render()" in the testing loop.  
+If you want to watch the game to observe the scores, please uncomment "env.render()" in the testing loop (lines 248 of DATSQN_test, 235 of DSQN_test, and 238 of DTSQN_test).  
 Please ensure that the environment ID is consistent for test and train files. 
 
 ```
