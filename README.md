@@ -5,12 +5,18 @@
 
 ## How to Run: 
 
-Install all the required packages: 
-pip install gymnasium 
-pip install stable_baselines3 
-pip install ale_py 
+Install all the required packages:
+
+pip install gymnasium
+
+pip install stable_baselines3
+
+pip install ale_py
+
 pip install snntorch
-pip install msgpack-numpy 
+
+pip install msgpack-numpy
+
 pip install tensorboard; 
 
 To train each of the three RL agents, run:  DATSQN_train.py, DTSQN_train.py, and DSQN_train.py
