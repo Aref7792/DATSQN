@@ -7,25 +7,28 @@
 
 Install all the required packages, 
 
-To train each of the three RL agents run:  DATSQN-train.py, DTSQN-train.py, and DSQN-train.py 
+To train each of the three RL agents, run:  DATSQN_train.py, DTSQN_train.py, and DSQN_train.py
+```
+DATSQN_train.py
+```
+You can see the results by running TensorBoard in the terminal:
 
 ```
-DATSQN-test.py
+tensorboard --logdir /logs
 ```
 
 ### To test a trained model:
 
-1-Place the trained model in the training_models directory.
-
-2-Open the corresponding test environment script: DATSQN-test.py, DTSQN-test.py, or DSQN-test.py.
-
-3-Locate the net.load() function (line 255 in DATSQN-test.py and DTSQN-test.py, line 170 in DSQN-test.py).
-
-4-Enter the numeric portion of the model name (the digits following "dqn") as the argument for net.load().
-
-
-5-Run the script to execute the test.  
+After finishing the training, run the corresponding test environment. For example, if you ran DATSQN_train.py, run DATSQN_test.py.
+If you want to watch the game to observe the scores, please uncomment "env.render()" in the testing loop.  
+Please ensure that the environment ID is consistent for test and train files. 
 
 ```
 DATSQN-test.py
+```
+
+You can see the results by running TensorBoard in the terminal:
+
+```
+tensorboard --logdir /logs
 ```
