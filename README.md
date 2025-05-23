@@ -1,13 +1,12 @@
-# 🧠 DATSQN  
-**Improving Performance of Spike-based Deep Q-Learning using Ternary Neurons**
+# 🧠 DATSQN
+## Improving Performance of Spike-based Deep Q-Learning using Ternary Neurons
 
-This repository evaluates the performance of Deep Spiking Q-Networks (DSQN) using:
+This repository evaluates the performance of **Deep Spiking Q-Networks (DSQNs)** using:
+- **Binary spiking neurons** (DSQN)
+- **Ternary spiking neurons** (DTSQN)
+- **Asymmetric ternary spiking neurons** (DATSQN)
 
-- Binary spiking neurons  
-- Ternary spiking neurons  
-- Asymmetric ternary spiking neurons  
-
-in Atari game environments from **OpenAI Gym** (via `gymnasium`).
+The agents are trained and tested on **Atari games** using the **Gymnasium** environment.
 
 ---
 
@@ -16,5 +15,11 @@ in Atari game environments from **OpenAI Gym** (via `gymnasium`).
 Install the required Python packages:
 
 ```bash
-pip install gymnasium stable-baselines3 ale-py snntorch msgpack-numpy tensorboard
+pip install gymnasium
+pip install stable_baselines3
+pip install ale_py
+pip install snntorch
+pip install msgpack-numpy
+pip install tensorboard
 
+## 🚀 How to Run
