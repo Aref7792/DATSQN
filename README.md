@@ -2,7 +2,7 @@
 # 🧠 DATSQN  
 ## Improving Performance of Spike-based Deep Q-Learning using Ternary Neurons
 
-This repository evaluates the performance of **Deep Spiking Q-Networks (DSQNs)** using:
+This repository evaluates the performance of **SNNs** for **Q-learning** using:
 
 - **Binary spiking neurons** (DSQN)  
 - **Ternary spiking neurons** (DTSQN)  
