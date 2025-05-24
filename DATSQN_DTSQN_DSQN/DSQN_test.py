@@ -55,8 +55,6 @@ elif env_id == 'Jamesbond':
 else:
     DTER =1
 
-os.makedirs('training_models', exist_ok=True)
-
 class PseudoSpikeRect(th.autograd.Function):
     """ Pseudo-gradient function for spike - Derivative of Rect Function """
     @staticmethod
